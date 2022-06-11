@@ -1,14 +1,15 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "type": "module",
+  "scripts": {
+    "start": "node api/index.js" 
+  },
   "author": {
     "name": "Raphael Andrews",
     "email": "raphaelandrews95@gmail.com"
-  },
-  "scripts": {
-    "dev": "node server.js"
   },
   "license": "MIT",
   "dependencies": {
